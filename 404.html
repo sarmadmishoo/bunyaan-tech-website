@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found — Bunyaan Tech</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#050C1A">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon.png" type="image/png" sizes="64x64">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .lost{
+    min-height:100svh;display:grid;place-items:center;text-align:left;
+    background:
+      radial-gradient(110% 90% at 80% 6%,rgba(59,155,255,.20),transparent 58%),
+      linear-gradient(168deg,#071227 0%,#050C1A 50%,#081C38 100%);
+    padding:48px clamp(20px,6vw,56px);
+  }
+  .lost-in{max-width:560px}
+  .lost img{width:44px;margin-bottom:28px}
+  .lost-code{
+    font-family:var(--mono);font-size:12px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--blue-soft);margin:0 0 14px;
+  }
+  .lost h1{
+    color:#fff;font-size:clamp(2rem,5vw,3rem);letter-spacing:-.035em;
+    line-height:1.03;margin:0 0 18px;
+  }
+  .lost p{color:var(--d-body);margin:0 0 30px;max-width:46ch}
+</style>
+</head>
+<body>
+<main class="lost">
+  <div class="lost-in">
+    <img src="bunyaan-mark.png" alt="Bunyaan Tech">
+    <p class="lost-code">Error 404</p>
+    <h1>This page has moved, or never shipped.</h1>
+    <p>The link you followed does not resolve. Everything we build and how we engage is on the main page.</p>
+    <div class="hero-acts">
+      <a class="btn btn-solid" href="/">Back to bunyaan.tech</a>
+      <a class="btn btn-ghost" href="/#contact">Contact us</a>
+    </div>
+  </div>
+</main>
+</body>
+</html>
